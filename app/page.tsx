@@ -1,10 +1,5 @@
-import { NumberConverter } from "@/components/number-converter"
+import { CalculatorLayout } from "@/components/calculator-layout"
 
 export default function Home() {
-  return (
-    <main className="flex min-h-screen flex-col items-center justify-center p-4 md:p-24">
-      <h1 className="text-3xl font-bold mb-8 text-center">Number System Converter</h1>
-      <NumberConverter />
-    </main>
-  )
+  return <CalculatorLayout />
 }
